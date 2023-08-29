@@ -1,0 +1,4 @@
+train_model/model/
+train_model/__MACOSX/
+data/
+*.zip
