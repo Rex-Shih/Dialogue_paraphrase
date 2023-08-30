@@ -1,6 +1,12 @@
 import json
 import numpy as np
-seed = 314
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--seed", type=int, default=314)
+args = parser.parse_args()
+
+seed = args.seed
 np.random.seed(seed)
 
 dic = []
