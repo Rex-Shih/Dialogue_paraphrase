@@ -29,4 +29,4 @@ the representative sentence serves as the final paraphrased sentence.
 
 ### Evaluation
 
-We use many conversational datasets to train a NSP model, 
+We use many conversational datasets to train a NSP model, and get the score from past utterance to current paraphrase utterance, as well as the score of current paraphrase utterance to future utterance.
